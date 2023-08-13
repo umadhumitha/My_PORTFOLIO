@@ -1,0 +1,28 @@
+/* Navbar.css */
+nav {
+  background-color: #1f7bad; /* Background color for the navigation bar */
+  padding: 10px 0; /* Vertical and horizontal padding */
+}
+
+ul {
+  list-style: none; /* Remove bullet points from list */
+  display: flex; /* Display links horizontally */
+  justify-content: center; /* Center links horizontally */
+}
+
+li {
+  margin: 0 15px; /* Add spacing between links */
+}
+
+/* Style for links */
+li a {
+  text-decoration: none;
+  color: #fff; /* Link text color */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+li a:hover {
+  color: #7de3ef; /* Change color on hover */
+}

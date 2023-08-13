@@ -1,0 +1,270 @@
+footer{
+ 
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+
+}
+footer span a{
+  
+  color: crimson;
+  text-decoration: none;
+}
+footer span a:hover{
+
+  text-decoration: underline;
+}
+.nav-wrapper{
+  background-color:black;
+
+}
+.nav
+{
+  align-items: right;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+}
+
+
+.skills-header{
+  text-align: center;
+  color:black;
+  padding: 1rem;
+  position: relative;
+  font-family:'Aclonica';
+
+  }
+  .skills-header:hover{
+    transform:scale(1.07);
+    transition:1s ease-out;
+    }
+
+
+  .skills-container{
+
+  display: grid;
+  grid-tempLate-columns: repeat(5, 1fr);
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+  grid-gap:1rem;
+  padding: 1rem 80px;
+  font-size: 1.2rem;
+  }
+  .skills-box{
+  padding: 1rem;
+  color:black;
+  cursor:pointer;
+  }
+
+  .skills-box:hover .skills-img{
+  transform: translateX(-20px);
+  }
+
+  .skills-title{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  color:black;
+  font-family:'Aclonica';
+  }
+
+  .skills-title:after{
+  content: '';
+  position:absolute;
+  bottom: 0;
+  right: 50%;
+  width:20px;
+  height:4px;
+  border-radius: 2px 0 0 2px;
+
+  transition: .5s;
+  }
+
+  .skills-title:before{
+  content: '';
+  position:absolute;
+  bottom: 0;
+  left: 50%;
+  width:100px;
+  height:4px;
+  border-radius: 0 2px 2px 0;
+  }
+
+  .skills-icons{
+  width:50px;
+  z-index:2;
+  }
+
+  .skills-img{
+  width:90px;
+  height:90px;
+  position: relative;
+  border-radius: 45px;
+  background-color: #fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  transition: .5s;
+  }
+
+  .skills-img:after{
+  content: '';
+  position:absolute;
+  top:0;
+  left: 0;
+  width:50%;
+  height:90px;
+  background: rgba(100, 100, 100, 0.5);
+  border-radius: 45px 0 0 45px;
+  }
+  .skills-title h3{
+  color: #333;
+  margin-top: 0.5rem;
+  }
+.skills-section
+{
+
+  display:flex;
+
+  height:10%;
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+
+
+.Projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.Projects .row {
+  flex-basis: calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.Projects .card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Projects .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Projects .card-image img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.Projects .card-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.Projects .card-content p {
+  margin-bottom: 15px;
+  color: #444;
+  font-size: 16px;
+}
+
+.Projects .card-action a {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.Projects .card-action a:hover {
+  background-color: #0056b3;
+}
+
+
+.Roles {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.Roles h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item {
+  flex: 0 0 33.33%;
+  transition: transform 0.4s ease;
+}
+
+.carousel-item:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.carousel-item .card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.carousel-item .card-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 160px;
+}
+
+.carousel-item .card-content {
+  padding: 15px;
+}
+
+.carousel-item .card-content p {
+  margin-bottom: 15px;
+  color: #444;
+  font-size: 16px;
+}
+
+.carousel-item .card-action a {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-item .card-action a:hover {
+  background-color: #0056b3;
+}
+
+
